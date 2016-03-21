@@ -1,0 +1,5 @@
+.idea/
+build/
+junit-report/
+junit-results/
+moodle-selenium-tests.iml

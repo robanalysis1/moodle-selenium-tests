@@ -1,0 +1,25 @@
+{
+"capabilities":
+        [
+ 		{
+            "browserName":"firefox",
+            "acceptSslCerts":true,
+            "javascriptEnabled":true,
+            "takesScreenshot":true,
+            "firefox_profile":"",
+            "maxInstances":1,
+			"nativeEvents":true
+                }
+        ],
+"configuration":
+        {
+                "cleanUpCycle":2000,
+                "timeout":30000,
+                "proxy":"org.openqa.grid.selenium.proxy.WebDriverRemoteProxy",
+                "maxSession":1,
+                "port": 5555,
+                "host": 134.96.235.134,
+                "register": true ,
+                "hubPort" : 4444
+        }
+}
